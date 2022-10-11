@@ -10,7 +10,7 @@ body {
 @media (max-width: 767px) {
     body {
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 100% 98%;
         background-repeat: repeat;
     }
 }
