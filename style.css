@@ -159,7 +159,7 @@ footer {
         height: 100%;
     }
 }
-<<<<<<< Updated upstream
+
 /*imagen reconocimiento*/
 .logo{
     display: flex;
@@ -177,18 +177,5 @@ footer {
         height: 90px;
     }
 }
-=======
 
-/* asignamos logo */
-.logo23 {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    position: fixed;
-}
 
-.logo__logo {
-    width: 120px;
-    height: 110px;
-}
->>>>>>> Stashed changes
