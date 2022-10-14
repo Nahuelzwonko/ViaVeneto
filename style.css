@@ -159,3 +159,20 @@ footer {
         height: 100%;
     }
 }
+/*imagen reconocimiento*/
+.logo{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: flex-start;
+}
+.logo__logo{
+    width: 120px;
+    height: 110px;
+}
+@media (max-width:767px){
+    .logo__logo{
+        width: 100px;
+        height: 90px;
+    }
+}
