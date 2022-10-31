@@ -1,21 +1,24 @@
 /* imagen de fondo */
-body {
+.bg-1 {
     background-image: url('./img/via\ veneto\ 3-min-min.png');
     background-repeat: repeat;
     background-size: cover;
     /* background-position: center;  */
+}
 
+.bg-2 {
+    background-color: #fff3c7;
 }
 
 @media (max-width: 767px) {
-    body {
+    .bg-1 {
         background-attachment: fixed;
         background-size: 100%;
         background-repeat: repeat;
     }
 }
 
-body {}
+
 
 /* logo */
 .img {
@@ -109,6 +112,12 @@ footer {
     color: white;
     font-size: 15px;
     text-align: center;
+
+}
+
+.footer__p a {
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /* top nav */
@@ -180,7 +189,7 @@ footer {
     width: 100%;
     position: fixed;
     justify-content: flex-start;
-/*     animation-name: slidein;
+    /*     animation-name: slidein;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-play-state: running;
@@ -216,6 +225,7 @@ footer {
     animation-direction: alternate-reverse;
     animation-timing-function: linear;
 }
+
 /* @-webkit-keyframes img {
     0% {
         width: 10%;
@@ -296,7 +306,7 @@ footer {
     display: block;
     width: 100%;
     height: 100%;
-    background: #ffffff;
+    background: transparent;
     border-radius: 100%;
     opacity: 1;
     transition: none;
@@ -304,9 +314,9 @@ footer {
 
 .bg.over {
     transform: scale(0, 0);
-    background: #242424;
+    background: transparent;
     opacity: 0;
-    transition: -wekit-transform .2s ease-out,
+    transition: -wekit-transform .01s ease-out,
         transform .2s ease-out,
         opacity .1s ease-in;
 }
@@ -356,4 +366,81 @@ footer {
 
 .btnn:hover .arrow.over svg {
     transform: translateX(0);
+}
+
+/* nuestra historia */
+.c {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 764px) {
+    .c {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.c .foto {
+    background-image: url(./img/reco/recoimg.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 764px) {
+    .c .foto {
+        background-image: url(./img/fondo/reconocimiento\ vertical.png);
+        background-position:   top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.footer-12 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+.footer-p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.footer-p a {
+    text-decoration: none;
+    margin: 0%;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.f-1 {
+    color: black;
+    font: 500;
+    font-size: 15px;
+}
+
+.f-2 {
+    color: #68f517;
+    font: 500;
+    font-size: 15px;
+}
+
+.f-3 {
+    color: rgb(255, 255, 255);
+    font: 500;
+    font-size: 15px;
 }
